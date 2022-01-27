@@ -8,6 +8,7 @@ In this folder repository contains:
 
 1. [/app](https://github.com/ArronYee/DrawerLayout/tree/main/app) a sample example for DrawerLayout.
 2. [/drawerLayout](https://github.com/ArronYee/DrawerLayout/tree/main/drawerlayout) the libs code.
+3. [demo](https://github.com/ArronYee/DrawerLayout/blob/main/app-debug.apk)
 
 ## Table of Contents
 
