@@ -44,6 +44,18 @@ android {
     }
 }
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = "com.github.arronyee"
+            artifactId = "DrawerLayout"
+            version = "0.0.3"
+
+            from components.java
+        }
+    }
+}
+
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
