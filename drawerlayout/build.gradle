@@ -18,7 +18,7 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 30
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
@@ -27,15 +27,8 @@ android {
 
     buildTypes {
         release {
-            zipAlignEnabled true
-            minifyEnabled true
-//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
-        }
-        debug {
-            zipAlignEnabled true
-            minifyEnabled true
-//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -48,7 +41,7 @@ android {
 //    publications {
 //        mavenJava(MavenPublication) {
 //            groupId = "com.github.arronyee"
-//            artifactId = "DrawerLayout"
+//            artifactId = "gearview"
 //            version = "0.0.3"
 //
 //            from components.java
