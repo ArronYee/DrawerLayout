@@ -26,7 +26,7 @@ In this folder repository contains:
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
 ```sh
-implementation 'com.github.ArronYee:DrawerLayout:0.0.7'
+implementation 'com.github.ArronYee:DrawerLayout:0.0.5'
 ```
 
 ## Usage
