@@ -22,11 +22,20 @@ In this folder repository contains:
 
 
 ## Install
-
-This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
-
 ```sh
-implementation 'com.github.ArronYee:DrawerLayout:0.0.5'
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+In your needed module
+```sh
+	dependencies {
+		implementation 'com.github.ArronYee:DrawerLayout:0.0.5'
+	}
 ```
 
 ## Usage
