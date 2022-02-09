@@ -1,6 +1,6 @@
 # DrawerLayout
 
-<!-- [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) -->
+[![](https://jitpack.io/v/ArronYee/DrawerLayout.svg)](https://jitpack.io/#ArronYee/DrawerLayout)
 
 ![img](https://github.com/ArronYee/DrawerLayout/blob/main/ujbj4-e71nh.gif)
 
