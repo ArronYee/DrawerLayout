@@ -19,8 +19,6 @@ In this folder repository contains:
 
 - [Partial-code-description](#Partial-code-description)
 - [Install](#install)
-- [Related-Mentality](#Related-Mentality)
-- [To-be-improved](#To-be-improved)
 
 ## Partial-code-description
 
@@ -129,44 +127,4 @@ In your needed module
 		  implementation 'com.github.ArronYee:Form:0.0.3'
 	}
 ```
-
-## Related-Mentality
-
-This Sample use mvp frame,but in the "form", It's more likely mvvm,
-
-i use
-```sh
- tv_last.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                memoString.setValue(s.toString());
-            }
-        });
-```
-
-
-```sh
- DataParser dataParser = serverDataProvider.updateItemValue(name, value);
- 
- //--//
- 
- localRender.updateItemView(name, showText, value, dataParser.getView() == 1);
- 
- 
-```
-
-Ensure immediate response between them。
-
-## To-be-improved
-In my own business project,it also support "Cordition","ExtraFile",but it is inconvenient to package into Library,it has map or upload file need to be done,so let me think and it will be improved in the future。
 
